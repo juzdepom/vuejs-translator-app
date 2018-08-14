@@ -1,6 +1,10 @@
 # vuejs-translator-app
 
-> A Vue.js project
+> A Vue.js tutorial by [Traversy](https://www.youtube.com/watch?v=DBADrF0C2ls)
+
+Project notes [here](https://docs.google.com/document/d/1EP-3C6rCT65YHE2yE_qDek_GhLgBj3dV7GTwEYQWPlg/edit?usp=sharing)
+
+[demo](demo.gif)
 
 ## Build Setup
 
