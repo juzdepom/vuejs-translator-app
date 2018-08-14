@@ -1,9 +1,15 @@
 <template>
-  <div id="app">
+  <div id="app" class="text-center">
     <h1>Word Translator</h1>
-    <h5>Powered by Vue.js</h5>
+    <img class="rogue-logo" src="./assets/logo.png" alt="rogue-logo">
+    <p>Coded by <span id="handle">@codebreakerjulia</span></p>
     <TranslateForm v-on:formSubmit="translateText"></TranslateForm>
-    <TranslateOutput v-text="translatedText"></TranslateOutput>
+    <div class="translate-output">
+      {{translatedText}}
+    </div>
+
+    <!-- <TranslateOutput v-text="translatedText"></TranslateOutput> -->
+    <p>Tutorial by Traversy Media<br>Powered by Vue.js</p>
   </div>
 </template>
 
@@ -19,7 +25,7 @@ export default {
   },
   data: function(){
     return {
-      translatedText: ''
+      translatedText: 'Translation will go here...'
     }
   },
   methods: {
@@ -34,7 +40,22 @@ export default {
 </script>
 
 <style>
-#app {
-
+body {
+  margin-top: 30px;
+  background: #fefefe;
+}
+.rogue-logo{
+  margin-bottom: 5px;
+  width: 80px;
+}
+#handle {
+  color: #317EC6;
+}
+.translate-output {
+  border-radius: 10px;
+  border: 2px #317EC6 solid;
+  background-color:#3E99ED;
+  padding: 10px;
+  margin: 15px;
 }
 </style>

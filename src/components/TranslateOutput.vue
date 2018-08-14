@@ -1,12 +1,12 @@
 <template>
-    <div id="translateOuput">
-        <h2>{{translatedText}}</h2>
+    <div class="container">
+        <div id="translateOuput" style="width: 100px; background-color: red;">
+            <span>{{translatedText}}</span>
+        </div>
     </div>
 </template>
 
 <script>
-
-
 export default {
     name: 'translateOuput',
     props:['translatedText'],
@@ -14,17 +14,15 @@ export default {
         return {
             textToTranslate: '',
         }
-    },
-    methods: {
-        // formSubmit(e){
-        //     this.$emit('formSubmit', this.textToTranslate);
-        //     e.preventDefault(); //prevents the default submit
-        // }
     }
-
 }
 </script>
 
 <style>
-
+    #translateOutput {
+        border-radius: 10px;
+        border: 1px #ccc solid;
+        background-color:lightgray;
+        padding: 10px;
+    }
 </style>
