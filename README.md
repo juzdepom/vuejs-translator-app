@@ -2,9 +2,11 @@
 
 > A Vue.js tutorial by [Traversy](https://www.youtube.com/watch?v=DBADrF0C2ls)
 
+Created on DAY FOUR of #30daysofcode - Sunday, August 12, 2018
+
 Project notes [here](https://docs.google.com/document/d/1EP-3C6rCT65YHE2yE_qDek_GhLgBj3dV7GTwEYQWPlg/edit?usp=sharing)
 
-[demo](demo.gif)
+![demo](demo.gif)
 
 ## Build Setup
 
